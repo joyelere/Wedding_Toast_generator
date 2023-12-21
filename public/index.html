@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Toast Generator</title>
+</head>
+<body>
+    <h1>Wedding Toast Generator</h1>
+    <form id="toastForm">
+        <label for="brideName">Bride's Name:</label>
+        <input type="text" id="brideName" required><br>
+
+        <label for="groomName">Groom's Name:</label>
+        <input type="text" id="groomName" required><br>
+
+        <label for="relationship">Your Relationship to the Couple:</label>
+        <input type="text" id="relationship" required><br>
+
+        <button type="submit">Generate Toast</button>
+    </form>
+
+    <div id="generatedToast"></div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
